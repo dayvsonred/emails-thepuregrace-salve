@@ -1,0 +1,13 @@
+{
+  "name": "ses-store-email",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.699.0",
+    "@aws-sdk/client-ses": "3.699.0"
+  },
+  "overrides": {
+    "@aws-sdk/util-locate-window": "3.953.0"
+  }
+}
